@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BLOOD</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="not_registered">not_registered</string>
+    <string name="Register">Register</string>
+    <string name="already_registered">already registered</string>
+    <string name="dengue"></string>
+    <string name="chikungunya"></string>
+    <string name="surgery"></string>
+</resources>

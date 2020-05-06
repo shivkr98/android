@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Donate">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:autoSizeTextType="uniform"
+            android:text="      Doner Form" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/blood_g"
+                android:layout_width="171dp"
+                android:layout_height="39dp"
+                android:autoSizeTextType="uniform"
+                android:text="Blood Group" />
+
+            <EditText
+                android:id="@+id/ed_blood"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="171dp"
+                android:layout_height="39dp"
+
+                android:autoSizeTextType="uniform"
+                android:text="Name" />
+
+            <EditText
+                android:id="@+id/ed_name"
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/gender"
+                android:layout_width="171dp"
+                android:layout_height="39dp"
+
+                android:autoSizeTextType="uniform"
+                android:text="Gender" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male" />
+
+                <CheckBox
+                    android:id="@+id/female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="171dp"
+                android:layout_height="39dp"
+
+                android:autoSizeTextType="uniform"
+                android:text="Age" />
+
+            <EditText
+                android:id="@+id/ed_age"
+                android:layout_width="226dp"
+                android:layout_height="wrap_content"
+
+
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/moblie"
+                android:layout_width="171dp"
+                android:layout_height="39dp"
+
+                android:autoSizeTextType="uniform"
+                android:text="Mobile" />
+
+            <EditText
+                android:id="@+id/ed_mobile"
+                android:layout_width="232dp"
+                android:layout_height="match_parent"
+
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/health"
+                android:layout_width="171dp"
+                android:layout_height="39dp"
+
+                android:autoSizeTextType="uniform"
+                android:text="Health problem" />
+
+            <EditText
+                android:id="@+id/ed_health"
+                android:layout_width="226dp"
+                android:layout_height="wrap_content"
+
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/last_year"
+                android:layout_width="171dp"
+                android:layout_height="39dp"
+
+                android:autoSizeTextType="uniform"
+                android:text="last year problems" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <CheckBox
+                        android:id="@+id/surgery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="surgery" />
+
+                <CheckBox
+                        android:id="@+id/chikungunya"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="chikungunya" />
+
+                <CheckBox
+                    android:id="@+id/dengue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dengue" />
+
+                <CheckBox
+                    android:id="@+id/no_problem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="no" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="394dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/date_of_donate"
+                android:layout_width="171dp"
+                android:layout_height="39dp"
+
+                android:autoSizeTextType="uniform"
+                android:text="Last donation date" />
+
+            <EditText
+                android:id="@+id/ed_donate"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/latitude"
+                android:layout_width="171dp"
+                android:layout_height="39dp"
+
+                android:autoSizeTextType="uniform"
+                android:text="Latitude" />
+
+            <EditText
+                android:id="@+id/ed_letitude"
+                android:layout_width="226dp"
+                android:layout_height="wrap_content"
+
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/logitude"
+                android:layout_width="171dp"
+                android:layout_height="39dp"
+
+                android:autoSizeTextType="uniform"
+                android:text="longitude" />
+
+            <EditText
+                android:id="@+id/ed_logitude"
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+
+
+                />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/getLocation"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+
+            android:text="Get Location" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="19dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/getsubmit"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+
+                android:text="Submit"
+                android:layout_centerInParent="true"/>
+
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/l"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/g"/>
+
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
